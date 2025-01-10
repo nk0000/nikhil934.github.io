@@ -1,56 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Welcome to My Website</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<html><head>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<title>Home | Nikhil Kaushik</title>
+	</head>
+	<body>
+		<section class="slideshow">
+			<canvas id="header_canvas" width="1365" height="350px"></canvas>
+		  <script type="text/javascript" src="script.js"></script>
+			<section class="nav" id="n1">
+			<ul>
+				<li><a href="#" class="active">Home</a></li>
+				<!-- <li><a href="about.html">About</a></li> -->
+				<li><a href="assets/CV.pdf">Résumé</a></li>
+				<!-- <li><a href="skills.html">Skills</a></li> -->
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			</section>
+		<h2 class="name">AAYUSH AGGARWAL</h2>
+		</section>
+		<section class="intro">
+			<p class="hi"> Hello my friend...</p>
+			<img src="images/slit.png">
+			<p class="hitext" style="margin-top: -15px; margin-bottom: 10px;">Welcome to my personal website! I am  Nikhil Kaushik, an experienced Software Engineer working at Heaxagon. I have completed my Graduation from Chandigarh University. 
+Feel free to comment about anything you liked/disliked in the feedback tab right at the bottom of the page.</p>
+		</section>
+		<section class="mid" style="box-shadow: 0px 0px 20px 4px;">
+		<img src="images/overview.jpg">
+		<div class="vectors">
+		<img src="images/design.png" id="img1">
+		<img src="images/coffee.png" id="img2">
+		<img src="images/code.png" id="img3">
+		</div>
+		</section>
+		<section class="add" style="box-shadow: 0px 0px 20px 4px;">
+		<p class="more">A BIT MORE INFORMATION</p>
+		<div class="box">
+			<p>Apart from design &amp; developing, I enjoy taking part in various online cryptic hunts that taking place anywhere.
+I am a great team-player too, and I have a great sense of humor (In my opinion :p) and thus a fun person to be around with.
+Although I often feel shy around new people at first glance, but once we get to know each other, we can make really good friends.</p>
+		</div>
+		</section>
+		<section class="core">
+			<img src="images/core.jpg" class="core" style="box-shadow: 0px 0px 20px 4px;">
+		</section>
+		<section class="feedback">
+			<p><b>Any Comments?</b></p>
+			<br><br>
+			<form action="form_submit.php" method="post">
+			<div id="form">
+				<input type="text" placeholder="Name" name="Name"><br>
+				<input type="text" placeholder="Email" name="Email"><br>
+				<input type="textarea" placeholder="Comments" name="Comments">
+			</div>
+			<input type="button" value="SUBMIT" onclick="thanks()">
+			</form>
+		</section>
+<footer><p>Made with <text style="color: red">❤</text> by aayush9</p></footer>
+	
 
-    <!-- Header -->
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
-
-    <!-- Navigation Bar -->
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Home Section -->
-    <section id="home" class="content">
-        <h2>Home</h2>
-        <p>Welcome to the home page. You can explore my resume and contact information here.</p>
-    </section>
-
-    <!-- Resume Section -->
-    <section id="resume" class="content">
-        <h2>Resume</h2>
-        <p>Here you can find my resume and professional experiences. (Add resume content here)</p>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="content">
-        <h2>Contact</h2>
-        <p>You can reach me through the following platforms:</p>
-        <div class="icons">
-            <a href="https://mail.google.com/" target="_blank" title="Gmail">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Gmail_Logo_2023.png" alt="Gmail" width="50">
-            </a>
-            <a href="https://www.linkedin.com/" target="_blank" title="LinkedIn">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/LinkedIn_Logo_2023.svg" alt="LinkedIn" width="50">
-            </a>
-            <a href="https://github.com/" target="_blank" title="GitHub">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/GitHub_Logo_2023.png" alt="GitHub" width="50">
-            </a>
-        </div>
-    </section>
-
-</body>
-</html>
+</body></html>
