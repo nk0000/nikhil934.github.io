@@ -83,3 +83,45 @@ h2 {
     width: 50px;
     height: 50px;
 }
+
+.bubble{
+	display: inline-block;
+	margin: 50px;
+	width:300px;
+	height:300px;
+	border-radius: 100%;
+	box-shadow: 2px 2px 5px;
+}
+@media screen and (max-width: 800px){
+.bubble{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+}
+.bubble p{
+	color: white;
+	font-size:32px;
+	font-weight: 600;
+	text-align: center;
+	padding-top:40px;
+}
+.bubble img{
+	display: block;
+	text-align: center;
+	width:70px;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:30px;
+}
+.bubble img:hover{
+	display:block;
+	text-align: center;
+	width:80px;
+	height: auto;
+	padding-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	transition-duration: 0.3s;
+}
