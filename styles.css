@@ -125,3 +125,43 @@ h2 {
 	margin-right: auto;
 	transition-duration: 0.3s;
 }
+
+.contact{
+	padding-top: 50px;
+	margin-bottom: -30px;
+	width:100%;
+	text-align: justify;
+    text-justify: distribute-all-lines;
+	background-color: #ecf0f1;
+}
+.contactme{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width:10in;
+	margin-top:-50px;
+	padding-bottom: 0px;
+	background-color: #7f8c8d;
+	text-align: center;
+	box-shadow: 2px 2px 5px;
+}
+.contactme p{
+	text-align: center;
+	color:white;
+	padding:16px;
+	font-size: 22px;
+}
+@media screen and (max-width: 61.2em){
+	.contactme{
+		width:100%;
+		text-align: center;
+		margin-top: -70px;
+	}
+	.contactme p{
+		display: block;
+		width:95%;
+		padding-top: 10px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
