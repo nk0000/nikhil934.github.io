@@ -1,41 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home | Nikhil Kaushik</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal Portfolio of Nikhil">
+  <title>Nikhil's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <ul>
+        <li><a href="#about">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact.html">Contact</a></li>
+        <li><a href="assets/CV_New.pdf">Resume</a></li> 
+      </ul>
+    </div>
+  </nav>
 
-    <!-- Header -->
-    <header>
-        <h1>NIKHIL KAUSHIK</h1>
-    </header>
+  <!-- Main Content -->
+  <header>
+    <div class="container">
+      <h1>Nikhil Kaushik</h1>
+      <p>Software Engineer | Traveller | Enthusiast</p>
+    </div>
+  </header>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="assets/CV_New.pdf">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Hello, I'm Nikhil Kaushik, a software engineer by profession and travller by passion. I have experience in front-end and back-end technologies. I enjoy creating clean and efficient applications and contributing to them.</p>
+  </section>
 
-    <!-- Home Section -->
-    <section id="home" class="content">
-         <div class="box">
-	    <p> As I said, I am a traveller, so I love to explore new places :) <br> I am a great team-player too, and I have a great sense of humor (In my opinion :p) and thus a fun person to be around with.
-            I am an open person whom you can talk about anything-anytime, and once we get to know each other, we can make really good friends.
-           </p>
-	 </div>
-	<div class = "contactme">
-	    <p> Welcome to my minute website! I am Nikhil Kaushik, a software engineer by profession and a traveller by passion.<br> I have been in the IT indistry since last ~4 years. Talking about my graduation, I have completed B.E in CSE from Chandigarh University.
-            <br>I have created a lot of small projects from my end and I am ready to take up more. 
-           </p>
-	</div>
-    </section>
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>C#, C++, .NET</li>
+      <li>Angular, Node.js</li>
+      <li>Python, Java</li>
+      <li>Git & GitHub</li>
+      <li>Html, css, javascript</li>
+      <li>SQL, SSMS</li>
+    </ul>
+  </section>
 
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1: Face Emotion Recognition</h3>
+      <ul>
+	      <li>Designed and implemented face emotion recognition application.</li>
+	      <li>Provided real-time tracking and accuracy up-to 85%./li>
+	      <li>Used FER2013 of 1000+ images from Kaggle and implemented the algorithms.</li>
+	      <li>Tools: Python, Jupyter Notebook, Kaggle, OpenCV</li>
+    </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nikhil Kaushik. All rights reserved.</p>
+  </footer>
 </body>
 </html>
